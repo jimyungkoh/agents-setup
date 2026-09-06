@@ -20,3 +20,7 @@
 - [context-mode](https://github.com/mksglu/context-mode)
 - [graphify](https://github.com/Graphify-Labs/graphify)
 - [ponytail](https://github.com/dietrichgebert/ponytail)
+
+## 환경별 추가 플러그인
+
+- [pi](pi/README.md)

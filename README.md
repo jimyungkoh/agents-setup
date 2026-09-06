@@ -11,6 +11,7 @@
 
 - [전역 범위 — `global-scope/`](#전역-범위--global-scope)
   - [전역 플러그인 설치](#전역-플러그인-설치)
+  - [전역 플러그인 설치 (pi specific)](#전역-플러그인-설치-pi-specific)
   - [전역 스킬 설치](#전역-스킬-설치)
 - [프로젝트 범위 — `project-scope/`](#프로젝트-범위--project-scope)
 
@@ -18,7 +19,9 @@
 
 ```text
 global-scope/
-├── plugins/README.md                           플러그인 설치 절차
+├── plugins/
+│   ├── README.md                               플러그인 설치 절차
+│   └── pi/README.md                            pi 전용 플러그인 설치 절차
 └── skills/
     ├── README.md                               스킬 설치 절차
     ├── show-me/
@@ -41,6 +44,21 @@ global-scope/
 | [context-mode](https://github.com/mksglu/context-mode) | 대용량 도구 출력을 샌드박스에서 처리하고, 필요한 정보만 검색해 컨텍스트를 줄입니다. 세션 작업 기록도 보존합니다. |
 | [graphify](https://github.com/Graphify-Labs/graphify) | 코드·문서를 지식 그래프로 바꿔 구성 요소 관계를 탐색하고 질의합니다. |
 | [ponytail](https://github.com/dietrichgebert/ponytail) | 기존 코드·표준 라이브러리·플랫폼 기본 기능을 우선하게 해 불필요한 추상화와 의존성을 줄입니다. |
+
+### 전역 플러그인 설치 (pi specific)
+
+[pi](https://pi.dev/)를 사용 중이라면, 에이전트에게 [pi 플러그인 설치 지침](global-scope/plugins/pi/README.md)을 전달하고 설치를 요청하세요.
+
+```text
+이 문서를 읽고 지침에 따라 pi 전용 플러그인을 설치해 줘.
+```
+
+| 플러그인 | 역할 |
+| --- | --- |
+| [pi-web-access](https://github.com/nicobailon/pi-web-access) | 웹 검색, URL 페치, GitHub 클론, PDF·YouTube·영상 분석을 제공합니다. |
+| [pi-lens](https://github.com/apmantza/pi-lens) | LSP·린터·타입체크·구조 분석으로 실시간 코드 피드백을 제공합니다. |
+| [pi-mcp-adapter](https://github.com/nicobailon/pi-mcp-adapter) | MCP 서버를 pi 도구로 연결합니다. |
+| [pi-subagents](https://github.com/nicobailon/pi-subagents) | 단일 위임과 스크립트 멀티에이전트 워크플로를 제공합니다. |
 
 ### 전역 스킬 설치
 
