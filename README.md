@@ -27,6 +27,8 @@ global-scope/
     ├── show-me/
     │   ├── SKILL.md                            시각적 설명 스킬
     │   └── templates/page.html                 독립형 HTML 시각화 템플릿
+    ├── evidence-driven-debugging/
+    │   └── SKILL.md                            근거 기반 디버깅 스킬
     └── thermo-nuclear-code-quality-review/
         └── SKILL.md                            초엄격 코드 품질 리뷰 스킬
 ```
@@ -71,6 +73,7 @@ global-scope/
 | 스킬 | 출처 | 역할 |
 | --- | --- | --- |
 | [show-me](global-scope/skills/show-me/SKILL.md) | [humanlayer/skills](https://github.com/humanlayer/skills) 기반 커스텀 | 다이어그램·코드 스케치·HTML 아티팩트로 개념을 시각화합니다. |
+| [evidence-driven-debugging](global-scope/skills/evidence-driven-debugging/SKILL.md) | [obra/superpowers](https://github.com/obra/superpowers) 기반 커스텀 | 재현 가능한 근거로 원인을 먼저 확정하고, 진단·완화·검증된 수정을 분리해 디버깅합니다. |
 | [thermo-nuclear-code-quality-review](global-scope/skills/thermo-nuclear-code-quality-review/SKILL.md) | [cursor/plugins](https://github.com/cursor/plugins/blob/main/cursor-team-kit/skills/thermo-nuclear-code-quality-review/SKILL.md) | 추상화 품질·거대 파일·스파게티 조건문 중심의 초엄격 유지보수성 리뷰를 수행합니다. |
 
 ## 프로젝트 범위 — `project-scope/`
