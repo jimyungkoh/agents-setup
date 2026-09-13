@@ -19,6 +19,7 @@
 
 - [context-mode](https://github.com/mksglu/context-mode)
 - [graphify](https://github.com/Graphify-Labs/graphify)
+- [humanizer](https://github.com/blader/humanizer)
 - [ponytail](https://github.com/dietrichgebert/ponytail)
 
 ## 환경별 추가 플러그인

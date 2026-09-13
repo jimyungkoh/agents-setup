@@ -45,6 +45,7 @@ global-scope/
 | --- | --- |
 | [context-mode](https://github.com/mksglu/context-mode) | 대용량 도구 출력을 샌드박스에서 처리하고, 필요한 정보만 검색해 컨텍스트를 줄입니다. 세션 작업 기록도 보존합니다. |
 | [graphify](https://github.com/Graphify-Labs/graphify) | 코드·문서를 지식 그래프로 바꿔 구성 요소 관계를 탐색하고 질의합니다. |
+| [humanizer](https://github.com/blader/humanizer) | AI 특유의 문체를 의미 변경 없이 사람이 쓴 것처럼 다듬습니다. Claude Code에서는 플러그인, 그 외 환경에서는 스킬로 설치됩니다. |
 | [ponytail](https://github.com/dietrichgebert/ponytail) | 기존 코드·표준 라이브러리·플랫폼 기본 기능을 우선하게 해 불필요한 추상화와 의존성을 줄입니다. |
 
 ### 전역 플러그인 설치 (pi specific)
